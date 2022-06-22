@@ -1,0 +1,53 @@
+#div{
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+}
+
+
+#divParent {
+  
+  
+  background-color: #0a6932;
+  height: 135px;
+  width: 60%;
+  text-align: center;
+}
+
+#input {
+  padding: 8px 160px 8px 2px;
+}
+
+#button {
+  padding: 8px 60px 8px 60px;
+
+}
+
+#child {
+  background-color: #a7b4d1;
+  width: 60%;
+}
+
+.line{
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  height: 40px;
+  background-color: #f9f9f9;
+}
+
+.button{
+  align-self: flex-end;
+  border-radius: 25px;
+}
+.line:hover{
+  background-color: #cccccc;
+}
+
+
+.button:hover{
+ 
+  border: none;
+  height: 40px;
+  background-color: #007436;
+}
